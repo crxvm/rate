@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import java.net.URISyntaxException;
 
-
 /**
  * Контроллер приложения
  */
@@ -28,9 +27,5 @@ public class ApiController {
     @GetMapping(value = "/api/{currencyCode}" , produces = MediaType.TEXT_HTML_VALUE)
     public @ResponseBody ResponseEntity<Object> mainRequest(@PathVariable("currencyCode") String currencyCode) throws URISyntaxException {
         return rateService.mainApiMethod(currencyCode);
-    }
-    @GetMapping(value = "/test")
-    public String test(){
-        return "testOk";
     }
 }
