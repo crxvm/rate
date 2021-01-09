@@ -4,7 +4,7 @@
 
 ## Запуск
 
-Приложение можно запустить через IDE [IntelliJ IDEA](https://www.jetbrains.com/ru-ru/idea/) 
+Приложение можно запустить скачав и открыв репозиторий в [IntelliJ IDEA](https://www.jetbrains.com/ru-ru/idea/) 
 
 Или через командную строку
 ```shell
